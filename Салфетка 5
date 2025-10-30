@@ -92,8 +92,7 @@
   </ul>
   <p>Комплексное использование разных источников позволяет компенсировать их недостатки и обеспечить надёжное энергоснабжение.</p>
 </body>
-</html>
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -115,7 +114,7 @@
   <h1>Дополнительные материалы</h1>
   <p>Ниже приведены ссылки на документы и видео по теме:</p>
   <ul>
-    <li><a href="files/alt.pdf" target="_blank">Документ PDF – «Альтернативные источники энергии»</a></li>
+    <li><iframe src="files/alt.pdf" width="100%" height="600px">Альтернативные источники энергии</iframe></li>
     <li><a href="https://cdn.pixabay.com/photo/2017/03/13/07/34/photovoltaic-2138992_1280.jpg" target="_blank">Изображение в формате JPG – солнечная панель</a></li>
   </ul>
 
