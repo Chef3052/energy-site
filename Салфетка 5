@@ -124,4 +124,7 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/oIU5fFmDeSc" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
+git add .
+git commit -m "Добавлен HTML с просмотром PDF"
+git push
 
