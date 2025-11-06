@@ -3,15 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Главная – Альтернативные источники энергии</title>
-</head>
-<body style="background-image: url('https://profholod.ru/upload/medialibrary/490/u6v86przwouzjmbsz709nd0wp0x39071/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BF
+  <style>
+    /* Внешняя таблица стилей */
 
-%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8.jpg'); background-size: cover;">
+    /* Заголовки */
+    h1 {
+      color: #FFC107;
+    }
+
+    /* Фоновое оформление */
+    body {
+      background-color: #F5F5DC;
+    }
+
+    /* Абзацы текста */
+    p {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /* Специфический стиль для marquee */
+    marquee {
+      font-style: italic; /* Курсив */
+      font-weight: normal; /* Убираем жирность */
+    }
+    /* Эффект плавного перехода между секциями */
+    section {
+      scroll-margin-top: 100px;
+    }
+
+    /* Каркасные фреймы (только демонстрация разметки) */
+    .frame-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .frame {
+      border: 1px solid black;
+      width: calc(33% - 10px);
+      min-height: 200px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body style="background-image: url('https://profholod.ru/upload/medialibrary/490/u6v86przwouzjmbsz709nd0wp0x39071/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8.jpg'); background-size: cover;">
   <!-- Логотип-ссылка на главную -->
   <a href="index.html">
-    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" alt="Главная" 
-
-style="width:100px; float:left; margin:10px;">
+    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" alt="Главная" style="width:100px; float:left; margin:10px;">
   </a>
   <!-- Навигация -->
   <div style="margin:10px 0 20px 120px;">
@@ -21,14 +60,12 @@ style="width:100px; float:left; margin:10px;">
     <a href="additional.html">Дополнительные материалы</a>
   </div>
 
-  <h1>Добро пожаловать на сайт об альтернативных источниках энергии!</h1>
+  <h1>                     Добро пожаловать на сайт об альтернативных источниках энергии!</h1>
   <p>
     <marquee>Изучите возобновляемые и экологически чистые способы получения энергии</marquee>
   </p>
   <p>
-    Альтернативные источники энергии – это возобновляемые ресурсы, такие как солнечная, ветровая, гидроэнергия и др. Они не истощаются при использовании и не приводят к выбросам 
-
-загрязняющих веществ. 
+    Альтернативные источники энергии – это возобновляемые ресурсы, такие как солнечная, ветровая, гидроэнергия и др. Они не истощаются при использовании и не приводят к выбросам загрязняющих веществ. 
   </p>
   <p>  
     На сайте представлены основные виды альтернативной энергии, их преимущества и недостатки, а также ссылки на дополнительные материалы в разных форматах.
@@ -40,13 +77,54 @@ style="width:100px; float:left; margin:10px;">
 <head>
   <meta charset="UTF-8">
   <title>Виды альтернативной энергии</title>
+  <style>
+    /* Внешняя таблица стилей */
+
+    /* Заголовки */
+    h1 {
+      color: #FFC107;
+    }
+
+    /* Фоновое оформление */
+    body {
+      background-color: #F5F5DC;
+    }
+
+    /* Абзацы текста */
+    p {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /* Специфический стиль для marquee */
+    marquee {
+      font-style: italic; /* Курсив */
+      font-weight: normal; /* Убираем жирность */
+    }
+    /* Эффект плавного перехода между секциями */
+    section {
+      scroll-margin-top: 100px;
+    }
+
+    /* Каркасные фреймы (только демонстрация разметки) */
+    .frame-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .frame {
+      border: 1px solid black;
+      width: calc(33% - 10px);
+      min-height: 200px;
+      overflow-y: auto;
+    }
+  </style>
 </head>
 <body>
   <!-- Логотип-ссылка на главную -->
   <a href="index.html">
-    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
-
-alt="Главная" style="width:100px; float:left; margin:10px;">
+    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" alt="Главная" style="width:100px; float:left; margin:10px;">
   </a>
   <!-- Навигация -->
   <div style="margin:10px 0 20px 120px;">
@@ -64,17 +142,11 @@ alt="Главная" style="width:100px; float:left; margin:10px;">
         <img src="https://globalenergyprize.org/ru/wp-content/uploads/2023/03/Hydropower.jpg"Гидроэлектростанция" style="width:250px;">
       </td>
       <td style="vertical-align:top; padding-left:20px;">
-        <p><strong>Солнечная энергия:</strong> электричество получают с помощью солнечных батарей (фотоэлектрических панелей) или термальных коллекторов. Солнце – 
-
-неисчерпаемый источник, но мощность зависит от времени суток и погоды.</p>
-        <p><strong>Ветроэнергия:</strong> вырабатывается турбинами под действием ветра. Особенно эффективно на открытых пространствах. Проблемы – нестабильность ветра и 
-
-шум.</p>
-        <p><strong>Гидроэнергия:</strong> получают на гидроэлектростанциях, используя энергию падающей воды. Мощный источник, но может требовать строительства плотин.</p>
-        <p><strong>Геотермальная энергия:</strong> используется тепло из недр Земли. Устойчивый источник, но требует геологических условий.</p>
-        <p><strong>Биомасса:</strong> энергия из органических материалов (растения, древесина, отходы). Топливо возобновляемое, но может конкурировать с сельским 
-
-хозяйством.</p>
+        <p><strong>Солнечная энергия:</strong><p style="font-weight: normal;"> электричество получают с помощью солнечных батарей (фотоэлектрических панелей) или термальных коллекторов. Солнце – неисчерпаемый источник, но мощность зависит от времени суток и погоды.</p>
+        <p><strong>Ветроэнергия:</strong><p style="font-weight: normal;"> вырабатывается турбинами под действием ветра. Особенно эффективно на открытых пространствах. Проблемы – нестабильность ветра и шум.</p>
+        <p><strong>Гидроэнергия:</strong><p style="font-weight: normal;"> получают на гидроэлектростанциях, используя энергию падающей воды. Мощный источник, но может требовать строительства плотин.</p>
+        <p><strong>Геотермальная энергия:</strong><p style="font-weight: normal;"> используется тепло из недр Земли. Устойчивый источник, но требует геологических условий.</p>
+        <p><strong>Биомасса:</strong><p style="font-weight: normal;"> энергия из органических материалов (растения, древесина, отходы). Топливо возобновляемое, но может конкурировать с сельским хозяйством.</p>
       </td>
     </tr>
   </table>
@@ -85,13 +157,54 @@ alt="Главная" style="width:100px; float:left; margin:10px;">
 <head>
   <meta charset="UTF-8">
   <title>Преимущества и недостатки</title>
+  <style>
+    /* Внешняя таблица стилей */
+
+    /* Заголовки */
+    h1 {
+      color: #FFC107;
+    }
+
+    /* Фоновое оформление */
+    body {
+      background-color: #F5F5DC;
+    }
+
+    /* Абзацы текста */
+    p {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /* Специфический стиль для marquee */
+    marquee {
+      font-style: italic; /* Курсив */
+      font-weight: normal; /* Убираем жирность */
+    }
+    /* Эффект плавного перехода между секциями */
+    section {
+      scroll-margin-top: 100px;
+    }
+
+    /* Каркасные фреймы (только демонстрация разметки) */
+    .frame-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .frame {
+      border: 1px solid black;
+      width: calc(33% - 10px);
+      min-height: 200px;
+      overflow-y: auto;
+    }
+  </style>
 </head>
 <body>
   <!-- Логотип-ссылка на главную -->
   <a href="index.html">
-    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
-
-alt="Главная" style="width:100px; float:left; margin:10px;">
+    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" alt="Главная" style="width:100px; float:left; margin:10px;">
   </a>
   <!-- Навигация -->
   <div style="margin:10px 0 20px 120px;">
@@ -103,14 +216,26 @@ alt="Главная" style="width:100px; float:left; margin:10px;">
 
   <h1>Преимущества и недостатки</h1>
   <ul>
-    <li><strong>Преимущества:</strong> возобновляемость ресурсов, снижение выбросов CO₂, уменьшение зависимости от ископаемого топлива. Многие технологии (ветровые и 
-
-солнечные) дешевеют и становятся доступнее.</li>
-    <li><strong>Недостатки:</strong> высокая начальная стоимость установки, зависимость от природных условий (солнечные панели работают днём, ветряки – при ветре), более 
-
-низкая плотность энергии по сравнению с нефтью или углём.</li>
-  </ul>
-  <p>Комплексное использование разных источников позволяет компенсировать их недостатки и обеспечить надёжное энергоснабжение.</p>
+    <p><strong>Преимущества:</strong><p style="font-weight: normal;"> возобновляемость ресурсов, снижение выбросов CO₂, уменьшение зависимости от ископаемого топлива. Многие технологии (ветровые и солнечные) дешевеют и становятся доступнее.</p>
+    <p><strong>Недостатки:</strong><p style="font-weight: normal;"> высокая начальная стоимость установки, зависимость от природных условий (солнечные панели работают днём, ветряки – при ветре), более низкая плотность энергии по сравнению с нефтью или углём.</p>
+    <p>Комплексное использование разных источников позволяет компенсировать их недостатки и обеспечить надёжное энергоснабжение.</p>
+</ul>
+  <h2>Форма обратной связи</h2>
+    <form action="/submit_form" method="post">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="topic">Выберите тему:</label>
+      <select id="topic" name="topic">
+        <option value="solar">Солнечная энергия</option>
+        <option value="wind">Ветровая энергия</option>
+        <option value="hydro">Гидроэнергетика</option>
+      </select><br><br>
+      <label for="comment">Комментарии:</label>
+      <textarea id="comment" name="comment"></textarea><br><br>
+      <button type="submit">Отправить</button>
+    </form>
 </body>
 </html>
 <!DOCTYPE html>
@@ -118,13 +243,54 @@ alt="Главная" style="width:100px; float:left; margin:10px;">
 <head>
   <meta charset="UTF-8">
   <title>Дополнительные материалы</title>
+  <style>
+    /* Внешняя таблица стилей */
+
+    /* Заголовки */
+    h1 {
+      color: #FFC107;
+    }
+
+    /* Фоновое оформление */
+    body {
+      background-color: #F5F5DC;
+    }
+
+    /* Абзацы текста */
+    p {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /* Специфический стиль для marquee */
+    marquee {
+      font-style: italic; /* Курсив */
+      font-weight: normal; /* Убираем жирность */
+    }
+    /* Эффект плавного перехода между секциями */
+    section {
+      scroll-margin-top: 100px;
+    }
+
+    /* Каркасные фреймы (только демонстрация разметки) */
+    .frame-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .frame {
+      border: 1px solid black;
+      width: calc(33% - 10px);
+      min-height: 200px;
+      overflow-y: auto;
+    }
+  </style>
 </head>
 <body>
   <!-- Логотип-ссылка на главную -->
   <a href="index.html">
-    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
-
-alt="Главная" style="width:100px; float:left; margin:10px;">
+    <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" alt="Главная" style="width:100px; float:left; margin:10px;">
   </a>
   <!-- Навигация -->
   <div style="margin:10px 0 20px 120px;">
@@ -138,16 +304,23 @@ alt="Главная" style="width:100px; float:left; margin:10px;">
   <p>Ниже приведены ссылки на документы и видео по теме:</p>
   <ul>
     <li><a href="https://vsdi.ru/f/alternativnye_istochniki_energii.doc" target="_blank">Альтернативные источники энергии DOC</a></li>
-    <li><a href="https://staff.tiiame.uz/storage/users/398/presentations/bsurZi7PWB86hs8894HRE8MxKKDdfU1VeZp9iaJf.pdf" target="_blank">Альтернативные источники энергии 
-
-PDF</a></li>
+    <li><a href="https://staff.tiiame.uz/storage/users/398/presentations/bsurZi7PWB86hs8894HRE8MxKKDdfU1VeZp9iaJf.pdf" target="_blank">Альтернативные источники энергии PDF</a></li>
     <li><a href="https://upload.wikimedia.org/wikipedia/commons/9/9f/NesjavellirPowerPlant_edit2.jpg"_blank">Изображение в формате JPG – геотермальная электростанция</a></li>
   </ul>
-
-  <h2>Видео</h2>
+  <h2>Солнечные панели</h2>
+  <img src="https://media.giphy.com/media/c3HczzhNAceOI/giphy.gif" alt="Анимационная солнечная батарея" style="float: left; max-width: 100%; height: auto; margin-right: 10px;">
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<h2>Видео</h2>
   <p>Обзор по теме:</p>
   <!-- Встраивание видео с YouTube -->
-  <iframe width="560" height="315" src="https://rutube.ru/video/7b7f51d5a99e59da078a75b174d6b864/" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://rutube.ru/video/embed/7b7f51d5a99e59da078a75b174d6b864" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
 
