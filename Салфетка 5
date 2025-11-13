@@ -2,6 +2,50 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <title>Навигация</title>
+  <style>
+    body {
+      background-color: #F5F5DC;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 10px;
+    }
+    h3 {
+      color: #FFC107;
+      text-align: center;
+    }
+    nav a {
+      display: block;
+      padding: 10px 15px;
+      margin: 5px 0;
+      border: 2px solid #007BFF;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #007BFF;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #007BFF;
+      color: white;
+      border-color: #0056B3;
+    }
+  </style>
+</head>
+<body>
+  <h3>Навигация</h3>
+  <nav>
+    <a href="index.html" target="mainFrame">Главная</a>
+    <a href="types.html" target="mainFrame">Виды альтернативной энергии</a>
+    <a href="proscons.html" target="mainFrame">Преимущества и недостатки</a>
+    <a href="additional.html" target="mainFrame">Дополнительные материалы</a>
+  </nav>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
   <title>Главная – Альтернативные источники энергии</title>
    <style>
     /* Внешняя таблица стилей */
