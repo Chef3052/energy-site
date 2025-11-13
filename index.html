@@ -2,30 +2,95 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Главная – Альтернативные источники энергии</title>
-   <style>
-    h1 {
-      color: #FFC107;
-    }
-    body {
-      background-color: #F5F5DC;
+  <title>Альтернативные источники энергии</title>
+  <style>
+    * {
       margin: 0;
-      padding: 20px;
+      padding: 0;
+      box-sizing: border-box;
     }
-    p {
-      font-family: 'Times New Roman', serif;
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F5F5DC;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    
+    /* Стили для левой панели навигации */
+    .nav-panel {
+      width: 250px;
+      background-color: #F5F5DC;
+      padding: 15px;
+      border-right: 2px solid #ccc;
+      overflow-y: auto;
+      height: 100%;
+      flex-shrink: 0;
+    }
+    
+    .nav-logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 80px;
+      border-radius: 5px;
+    }
+    
+    .nav-title {
+      color: #FFC107;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+    }
+    
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .nav-link {
+      display: block;
+      padding: 12px 15px;
+      margin: 8px 0;
+      border: 2px solid #007BFF;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #007BFF;
       font-weight: bold;
-      font-size: 20px;
+      text-align: center;
+      transition: all 0.3s ease;
+      background-color: white;
     }
-    marquee {
-      font-style: italic;
-      font-weight: normal;
+    
+    .nav-link:hover, .nav-link.active {
+      background-color: #007BFF;
+      color: white;
+      border-color: #0056B3;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-    .logo {
-      width: 100px;
-      margin-right: 20px;
-      float: left;
+    
+    .nav-info {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
     }
+    
+    /* Стили для правой панели контента */
+    .content-panel {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background-color: #F5F5DC;
+    }
+    
     .content {
       max-width: 900px;
       margin: 0 auto;
@@ -34,27 +99,148 @@
       border-radius: 10px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
+    
+    /* Специальный стиль для главной страницы с фоновым изображением */
+    .main-page-bg {
+      background-image: url('https://profholod.ru/upload/medialibrary/490/u6v86przwouzjmbsz709nd0wp0x39071/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    h1 {
+      color: #FFC107;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    
+    marquee {
+      font-style: italic;
+      font-weight: normal;
+    }
+    
+    .logo {
+      width: 100px;
+      margin-right: 20px;
+      float: left;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    
+    td {
+      vertical-align: top;
+      padding: 10px;
+    }
+    
+    img {
+      max-width: 100%;
+    }
+    
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    
+    form {
+      margin-top: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    button:hover {
+      background-color: #0056B3;
+    }
+    
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+      margin-top: 20px;
+    }
   </style>
 </head>
-<body style="background-image: url('https://profholod.ru/upload/medialibrary/490/u6v86przwouzjmbsz709nd0wp0x39071/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8.jpg'); background-size: cover;">
-  <div class="content">
-    <a href="index.html" target="_parent">
+<body>
+  <div class="container">
+    <!-- Левая панель навигации -->
+    <div class="nav-panel">
       <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
-           alt="Главная" class="logo">
-    </a>
+           alt="Логотип" class="nav-logo">
+      
+      <h2 class="nav-title">Навигация</h2>
+      
+      <div class="nav-links">
+        <a href="#" class="nav-link active" data-page="main">Главная страница</a>
+        <a href="#" class="nav-link" data-page="types">Виды альтернативной энергии</a>
+        <a href="#" class="nav-link" data-page="proscons">Преимущества и недостатки</a>
+        <a href="#" class="nav-link" data-page="additional">Дополнительные материалы</a>
+      </div>
+      
+      <div class="nav-info">
+        <p>Используйте ссылки для навигации по сайту. Содержимое будет отображаться в правой части экрана.</p>
+      </div>
+    </div>
+    
+    <!-- Правая панель контента -->
+    <div class="content-panel" id="content-panel">
+      <div class="content" id="content-area">
+        <!-- Контент будет загружаться здесь -->
+      </div>
+    </div>
+  </div>
 
-    <h1>Добро пожаловать на сайт об альтернативных источниках энергии!</h1>
-    <p>
-      <marquee>Изучите возобновляемые и экологически чистые способы получения энергии</marquee>
-    </p>
-    <p>
-      Альтернативные источники энергии – это возобновляемые ресурсы, такие как солнечная, ветровая, гидроэнергия и др. 
-      Они не истощаются при использовании и не приводят к выбросам загрязняющих веществ. 
-    </p>
-    <p>  
-      На сайте представлены основные виды альтернативной энергии, их преимущества и недостатки, 
-      а также ссылки на дополнительные материалы в разных форматах.
-    </p>
+  <script>
+    // Контент для разных страниц
+    const pages = {
+      main: `
+        <a href="#" class="logo-link">
+          <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+               alt="Главная" class="logo">
+        </a>
+
+        <h1>Добро пожаловать на сайт об альтернативных источниках энергии!</h1>
+        <p>
+          <marquee>Изучите возобновляемые и экологически чистые способы получения энергии</marquee>
+        </p>
+        <p>
+          Альтернативные источники энергии – это возобновляемые ресурсы, такие как солнечная, ветровая, гидроэнергия и др. 
+          Они не истощаются при использовании и не приводят к выбросам загрязняющих веществ. 
+        </p>
+        <p>  
+          На сайте представлены основные виды альтернативной энергии, их преимущества и недостатки, 
+          а также ссылки на дополнительные материалы в разных форматах.
+        </p>
   </div>
 </body>
 </html>
+ `,
