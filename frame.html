@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Альтернативные источники энергии</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F5F5DC;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    
+    /* Стили для левой панели навигации */
+    .nav-panel {
+      width: 250px;
+      background-color: #F5F5DC;
+      padding: 15px;
+      border-right: 2px solid #ccc;
+      overflow-y: auto;
+      height: 100%;
+      flex-shrink: 0;
+    }
+    
+    .nav-logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 80px;
+      border-radius: 5px;
+    }
+    
+    .nav-title {
+      color: #FFC107;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+    }
+    
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .nav-link {
+      display: block;
+      padding: 12px 15px;
+      margin: 8px 0;
+      border: 2px solid #007BFF;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+      text-align: center;
+      transition: all 0.3s ease;
+      background-color: white;
+    }
+    
+    .nav-link:hover, .nav-link.active {
+      background-color: #007BFF;
+      color: white;
+      border-color: #0056B3;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .nav-info {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+    
+    /* Стили для правой панели контента */
+    .content-panel {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      background-color: #F5F5DC;
+    }
+    
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    
+    /* Специальный стиль для главной страницы с фоновым изображением */
+    .main-page-bg {
+      background-image: url('https://profholod.ru/upload/medialibrary/490/u6v86przwouzjmbsz709nd0wp0x39071/%D0%A1%D0%BE%D0%BB%D0%BD%D0%B5%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D0%B8.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    h1 {
+      color: #FFC107;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    
+    marquee {
+      font-style: italic;
+      font-weight: normal;
+    }
+    
+    .logo {
+      width: 100px;
+      margin-right: 20px;
+      float: left;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    
+    td {
+      vertical-align: top;
+      padding: 10px;
+    }
+    
+    img {
+      max-width: 100%;
+    }
+    
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    
+    form {
+      margin-top: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    button:hover {
+      background-color: #0056B3;
+    }
+    
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Левая панель навигации -->
+    <div class="nav-panel">
+      <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+           alt="Логотип" class="nav-logo">
+      
+      <h2 class="nav-title">Навигация</h2>
+      
+      <div class="nav-links">
+        <a href="#" class="nav-link active" data-page="main">Главная страница</a>
+        <a href="#" class="nav-link" data-page="types">Виды альтернативной энергии</a>
+        <a href="#" class="nav-link" data-page="proscons">Преимущества и недостатки</a>
+        <a href="#" class="nav-link" data-page="additional">Дополнительные материалы</a>
+      </div>
+      
+      <div class="nav-info">
+        <p>Используйте ссылки для навигации по сайту. Содержимое будет отображаться в правой части экрана.</p>
+      </div>
+    </div>
+    
+    <!-- Правая панель контента -->
+    <div class="content-panel" id="content-panel">
+      <div class="content" id="content-area">
+        <!-- Контент будет загружаться здесь -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Контент для разных страниц
+    const pages = {
+      main: `
+        <a href="#" class="logo-link">
+          <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+               alt="Главная" class="logo">
+        </a>
+
+        <h1>Добро пожаловать на сайт об альтернативных источниках энергии!</h1>
+        <p>
+          <marquee>Изучите возобновляемые и экологически чистые способы получения энергии</marquee>
+        </p>
+        <p>
+          Альтернативные источники энергии – это возобновляемые ресурсы, такие как солнечная, ветровая, гидроэнергия и др. 
+          Они не истощаются при использовании и не приводят к выбросам загрязняющих веществ. 
+        </p>
+        <p>  
+          На сайте представлены основные виды альтернативной энергии, их преимущества и недостатки, 
+          а также ссылки на дополнительные материалы в разных форматах.
+        </p>
+      `,
+      
+      types: `
+        <a href="#" class="logo-link">
+          <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+               alt="Главная" class="logo">
+        </a>
+
+        <h1>Виды альтернативной энергии</h1>
+        
+        <table>
+          <tr>
+            <td>
+              <img src="https://globalenergyprize.org/ru/wp-content/uploads/2023/03/Hydropower.jpg" alt="Гидроэлектростанция" style="width:250px;">
+            </td>
+            <td>
+              <p><strong>Солнечная энергия:</strong></p>
+              <p style="font-weight: normal;">Электричество получают с помощью солнечных батарей (фотоэлектрических панелей) или термальных коллекторов. Солнце – неисчерпаемый источник, но мощность зависит от времени суток и погоды.</p>
+              
+              <p><strong>Ветроэнергия:</strong></p>
+              <p style="font-weight: normal;">Вырабатывается турбинами под действием ветра. Особенно эффективно на открытых пространствах. Проблемы – нестабильность ветра и шум.</p>
+              
+              <p><strong>Гидроэнергия:</strong></p>
+              <p style="font-weight: normal;">Получают на гидроэлектростанциях, используя энергию падающей воды. Мощный источник, но может требовать строительства плотин.</p>
+              
+              <p><strong>Геотермальная энергия:</strong></p>
+              <p style="font-weight: normal;">Используется тепло из недр Земли. Устойчивый источник, но требует геологических условий.</p>
+              
+              <p><strong>Биомасса:</strong></p>
+              <p style="font-weight: normal;">Энергия из органических материалов (растения, древесина, отходы). Топливо возобновляемое, но может конкурировать с сельским хозяйством.</p>
+            </td>
+          </tr>
+        </table>
+      `,
+      
+      proscons: `
+        <a href="#" class="logo-link">
+          <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+               alt="Главная" class="logo">
+        </a>
+
+        <h1>Преимущества и недостатки</h1>
+        
+        <p><strong>Преимущества:</strong></p>
+        <p style="font-weight: normal;">Возобновляемость ресурсов, снижение выбросов CO₂, уменьшение зависимости от ископаемого топлива. Многие технологии (ветровые и солнечные) дешевеют и становятся доступнее.</p>
+        
+        <p><strong>Недостатки:</strong></p>
+        <p style="font-weight: normal;">Высокая начальная стоимость установки, зависимость от природных условий (солнечные панели работают днём, ветряки – при ветре), более низкая плотность энергии по сравнению с нефтью или углём.</p>
+        
+        <p>Комплексное использование разных источников позволяет компенсировать их недостатки и обеспечить надёжное энергоснабжение.</p>
+        
+        <h2>Форма обратной связи</h2>
+        <form action="/submit_form" method="post">
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="name">
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          
+          <label for="topic">Выберите тему:</label>
+          <select id="topic" name="topic">
+            <option value="solar">Солнечная энергия</option>
+            <option value="wind">Ветровая энергия</option>
+            <option value="hydro">Гидроэнергетика</option>
+          </select>
+          
+          <label for="comment">Комментарии:</label>
+          <textarea id="comment" name="comment" rows="4"></textarea>
+          
+          <button type="submit">Отправить</button>
+        </form>
+      `,
+      
+      additional: `
+        <a href="#" class="logo-link">
+          <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+               alt="Главная" class="logo">
+        </a>
+
+        <h1>Дополнительные материалы</h1>
+        
+        <p>Ниже приведены ссылки на документы и видео по теме:</p>
+        <ul>
+          <li><a href="https://vsdi.ru/f/alternativnye_istochniki_energii.doc" target="_blank">Альтернативные источники энергии DOC</a></li>
+          <li><a href="https://staff.tiiame.uz/storage/users/398/presentations/bsurZi7PWB86hs8894HRE8MxKKDdfU1VeZp9iaJf.pdf" target="_blank">Альтернативные источники энергии PDF</a></li>
+          <li><a href="https://upload.wikimedia.org/wikipedia/commons/9/9f/NesjavellirPowerPlant_edit2.jpg" target="_blank">Изображение в формате JPG – геотермальная электростанция</a></li>
+        </ul>
+        
+        <h2>Солнечные панели</h2>
+        <img src="https://media.giphy.com/media/c3HczzhNAceOI/giphy.gif" alt="Анимационная солнечная батарея" style="float: left; max-width: 300px; height: auto; margin-right: 10px;">
+        
+        <div style="clear: both; height: 20px;"></div>
+        
+        <h2>Видео</h2>
+        <p>Обзор по теме:</p>
+        <iframe width="560" height="315" src="https://rutube.ru/video/embed/7b7f51d5a99e59da078a75b174d6b864" frameborder="0" allowfullscreen></iframe>
+      `
+    };
+
+    // Функция для загрузки контента
+    function loadPage(pageId) {
+      const contentArea = document.getElementById('content-area');
+      const contentPanel = document.getElementById('content-panel');
+      
+      contentArea.innerHTML = pages[pageId];
+      
+      // Управляем фоновым изображением для главной страницы
+      if (pageId === 'main') {
+        contentPanel.classList.add('main-page-bg');
+      } else {
+        contentPanel.classList.remove('main-page-bg');
+      }
+      
+      // Обновляем активную ссылку
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+      });
+      document.querySelector(`[data-page="${pageId}"]`).classList.add('active');
+      
+      // Прокручиваем к началу контента
+      contentArea.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Инициализация
+    document.addEventListener('DOMContentLoaded', function() {
+      // Загружаем главную страницу по умолчанию
+      loadPage('main');
+      
+      // Добавляем обработчики событий для навигационных ссылок
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          const pageId = this.getAttribute('data-page');
+          loadPage(pageId);
+        });
+      });
+      
+      // Добавляем обработчик для логотипа
+      document.addEventListener('click', function(e) {
+        if (e.target.closest('.logo-link')) {
+          e.preventDefault();
+          loadPage('main');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
