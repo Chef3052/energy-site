@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Преимущества и недостатки</title>
+  <style>
+    body {
+      background-color: #F5F5DC;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #FFC107;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .logo {
+      width: 100px;
+      margin-right: 20px;
+      float: left;
+    }
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056B3;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <a href="main.html" target="_parent">
+      <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+           alt="Главная" class="logo">
+    </a>
+
+    <h1>Преимущества и недостатки</h1>
+    
+    <p><strong>Преимущества:</strong></p>
+    <p style="font-weight: normal;">Возобновляемость ресурсов, снижение выбросов CO₂, уменьшение зависимости от ископаемого топлива. Многие технологии (ветровые и солнечные) дешевеют и становятся доступнее.</p>
+    
+    <p><strong>Недостатки:</strong></p>
+    <p style="font-weight: normal;">Высокая начальная стоимость установки, зависимость от природных условий (солнечные панели работают днём, ветряки – при ветре), более низкая плотность энергии по сравнению с нефтью или углём.</p>
+    
+    <p>Комплексное использование разных источников позволяет компенсировать их недостатки и обеспечить надёжное энергоснабжение.</p>
+    
+    <h2>Форма обратной связи</h2>
+    <form action="/submit_form" method="post">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name">
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      
+      <label for="topic">Выберите тему:</label>
+      <select id="topic" name="topic">
+        <option value="solar">Солнечная энергия</option>
+        <option value="wind">Ветровая энергия</option>
+        <option value="hydro">Гидроэнергетика</option>
+      </select>
+      
+      <label for="comment">Комментарии:</label>
+      <textarea id="comment" name="comment" rows="4"></textarea>
+      
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+</body>
+</html>

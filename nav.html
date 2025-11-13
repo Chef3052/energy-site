@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Навигация</title>
+  <style>
+    body {
+      background-color: #F5F5DC;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 15px;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    h2 {
+      color: #FFC107;
+      text-align: center;
+      margin-top: 0;
+      padding-top: 10px;
+    }
+    .nav-logo {
+      display: block;
+      margin: 0 auto 20px;
+      width: 80px;
+      border-radius: 5px;
+    }
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-link {
+      display: block;
+      padding: 12px 15px;
+      margin: 8px 0;
+      border: 2px solid #007BFF;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+      text-align: center;
+      transition: all 0.3s ease;
+      background-color: white;
+    }
+    .nav-link:hover, .nav-link.active {
+      background-color: #007BFF;
+      color: white;
+      border-color: #0056B3;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .nav-info {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://www.helind.com/storage/posts/January2023/alternativ-enerji-gunes-enerjisi-gunes-paneli-kulek-turbini-gunes-enerji0sistemikulek-turbinleri.jpg" 
+       alt="Логотип" class="nav-logo">
+  
+  <h2>Навигация</h2>
+  
+  <div class="nav-links">
+    <a href="main.html" target="mainFrame" class="nav-link">Главная страница</a>
+    <a href="types.html" target="mainFrame" class="nav-link">Виды альтернативной энергии</a>
+    <a href="proscons.html" target="mainFrame" class="nav-link">Преимущества и недостатки</a>
+    <a href="additional.html" target="mainFrame" class="nav-link">Дополнительные материалы</a>
+  </div>
+  
+  <div class="nav-info">
+    <p>Используйте ссылки для навигации по сайту. Содержимое будет отображаться в правой части экрана.</p>
+  </div>
+</body>
+</html>
