@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Альтернативные источники энергии - Фреймовая структура</title>
+</head>
+<frameset cols="20%,60%,20%">
+  <!-- Левый фрейм - навигация -->
+  <frame src="nav.html" name="leftFrame" scrolling="auto" noresize>
+  
+  <!-- Центральный фрейм - основное содержание -->
+  <frame src="index.html" name="mainFrame" scrolling="auto" noresize>
+  
+  <!-- Правый фрейм - дополнительная информация -->
+  <frame src="additional.html" name="rightFrame" scrolling="auto" noresize>
+  
+  <noframes>
+    <body>
+      <p>Ваш браузер не поддерживает фреймы. Пожалуйста, перейдите по одной из следующих ссылок:</p>
+      <ul>
+        <li><a href="index.html">Главная страница</a></li>
+        <li><a href="types.html">Виды альтернативной энергии</a></li>
+        <li><a href="proscons.html">Преимущества и недостатки</a></li>
+        <li><a href="additional.html">Дополнительные материалы</a></li>
+      </ul>
+    </body>
+  </noframes>
+</frameset>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Навигация</title>
+  <style>
+    body {
+      background-color: #F5F5DC;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 10px;
+    }
+    h3 {
+      color: #FFC107;
+      text-align: center;
+    }
+    nav a {
+      display: block;
+      padding: 10px 15px;
+      margin: 5px 0;
+      border: 2px solid #007BFF;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #007BFF;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #007BFF;
+      color: white;
+      border-color: #0056B3;
+    }
+  </style>
+</head>
+<body>
+  <h3>Навигация</h3>
+  <nav>
+    <a href="index.html" target="mainFrame">Главная</a>
+    <a href="types.html" target="mainFrame">Виды альтернативной энергии</a>
+    <a href="proscons.html" target="mainFrame">Преимущества и недостатки</a>
+    <a href="additional.html" target="mainFrame">Дополнительные материалы</a>
+  </nav>
+</body>
+</html>
